@@ -1,6 +1,6 @@
 <?php
 
-namespace Teckwei1993\Otp;
+namespace Eh3anr\Otp;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -34,7 +34,7 @@ class OtpServiceProvider extends ServiceProvider
         }
 
         $this->loadTranslationsFrom(__DIR__.'/../lang', 'otp');
- 
+
         $this->publishes([
             __DIR__.'/../resources/lang' => $this->app->langPath('vendor/otp'),
             __DIR__.'/../config/otp.php' => config_path('otp.php')

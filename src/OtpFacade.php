@@ -1,6 +1,6 @@
 <?php
 
-namespace Teckwei1993\Otp;
+namespace Eh3anr\Otp;
 
 use Illuminate\Support\Facades\Facade;
 

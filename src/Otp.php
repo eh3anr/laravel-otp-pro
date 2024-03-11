@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-namespace Teckwei1993\Otp;
+namespace Eh3anr\Otp;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Facade;
@@ -173,7 +173,7 @@ class Otp
             return implode($this->separator, $password);
         }catch(\Exception $e){
             throw new \Exception("Fail to generate password, please check the format is correct.");
-        }    
+        }
     }
 
     private function writeData(string $key, $value)

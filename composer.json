@@ -1,7 +1,7 @@
 {
-    "name": "teckwei1993/laravel-otp",
+    "name": "eh3anr/laravel-otp",
     "description": "Laravel OTP generator and validation",
-    "homepage": "https://github.com/teckwei1993/laravel-otp",
+    "homepage": "https://github.com/eh3anr/laravel-otp",
     "keywords": [
         "laravel",
         "otp",
@@ -13,17 +13,17 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Lim Teck Wei",
-            "email": "teckwei1993@gmail.com"
+            "name": "Eh3an Rajabi",
+            "email": "eh3an.r@gmail.com"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "Teckwei1993\\Otp\\OtpServiceProvider"
+                "Eh3anr\\Otp\\OtpServiceProvider"
             ],
             "aliases": {
-                "Otp": "Teckwei1993\\Otp\\OtpFacade"
+                "Otp": "Eh3anr\\Otp\\OtpFacade"
             }
         }
     },
@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Teckwei1993\\Otp\\": "src"
+            "Eh3anr\\Otp\\": "src"
         }
     }
 }
