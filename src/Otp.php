@@ -35,6 +35,11 @@ class Otp
         }
     }
 
+    /**
+     * @param  string  $method
+     * @param $params
+     * @return $this|void
+     */
     public function __call(string $method, $params)
     {
         if (!str_starts_with($method, 'set')) {
