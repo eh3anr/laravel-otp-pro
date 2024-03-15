@@ -5,8 +5,8 @@ namespace Eh3anr\Otp;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static generate(string $string)
- * @method static validate(string $string, string $string1)
+ * @method static generate(string $identifier, array $options = [])
+ * @method static validate(string $identifier, string $password, array $options = [])
  */
 class OtpFacade extends Facade
 {
